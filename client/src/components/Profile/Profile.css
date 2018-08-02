@@ -1,0 +1,160 @@
+@font-face {
+    font-family: peaks;
+    src: url(peaks.ttf);
+}
+
+.profileTitle {
+    color: orange;
+    font-family: peaks;
+}
+
+.profile {
+    color: yellow;
+    font-family: peaks;
+}
+
+.container {
+    font-family: 'Do Hyeon', sans-serif;    
+    color: white;
+}
+
+.items {
+    color: yellow;
+}
+
+.profileDetails {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card{
+    color:white;
+    background: transparent;
+}
+
+.card-header{
+    background: rgba(255, 255, 255, 0.075);
+}
+
+.user-name{
+    font-size:22px;
+    color:whitesmoke;
+    font-weight: 900;
+}
+
+hr{
+    border-bottom:2px ridge mediumvioletred;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.header{
+    font-family: peaks;
+    font-size:20px;
+    color:orange;
+}
+
+.menu-item{
+    background: rgba(253, 71, 71, 0.075);
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:5px;
+    text-transform: uppercase;
+    color:orange;
+    border:1px solid rgba(253, 71, 71, 0.75);
+   
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+.post-container{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.post-div{
+    /* border:1px solid salmon; */
+    background: rgba(255,255,255, 0.075);
+    border-radius:15px;
+}
+
+.post-image{
+    padding: 0px;
+    min-height:150px;
+    width: 100%;
+}
+
+a{
+    border-bottom: none !important;
+}
+
+.subheader,.name{
+    font-size: 15px;
+    font-weight: 900;
+    color:lemonchiffon;
+}
+
+.name{
+    font-weight: bolder;
+    color: orange;
+}
+
+.active{
+    border:1px solid rgb(221, 28, 221);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.message{
+    font-size: 28px;
+    margin-top:20px;
+    color:orange;
+}
+
+.status{
+    background:white;
+    display: inline;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(255, 63, 85);
+    font-weight: 900;
+    border-radius: 10px;
+    border:1px solid slategray;
+}
+
+.status:hover{
+    cursor: pointer;
+    background: lavender;
+}
+
+.btn-custom{
+    height:30px;
+}
+
+.btn-cust{
+    height:30px;
+    width:30px;
+}
+
+.resetColor{
+    background: rgba(18, 112, 106, 0.397);
+}
+
+.btn-success {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+	background-color: rgba(153, 0, 255, 0.171);
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-left: 10px;
+}
+
+.btn-success:hover {
+    background-color: transparent;
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: peaks;
+    src: url(peaks.ttf);
+}
+
+.viewItem {
+    font-family: peaks;
+    color: orange;
+}
+
+.viewItemText {
+        font-family: 'Do Hyeon', sans-serif;    
+        color: white;
+}
+.viewDetails {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;    
+    
+}
+.contactLink{
+    color:orange;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.contactLink :hover{
+    color:yellow;
+}
+.linkActive{
+    color:rgb(221, 28, 221);
+}
+.an {
+    color: yellow;
+}
+
+footer {
+    font-family: 'Do Hyeon', sans-serif;    
+}

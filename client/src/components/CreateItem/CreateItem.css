@@ -1,0 +1,67 @@
+@font-face {
+    font-family: peaks;
+    src: url(peaks.ttf);
+}
+
+.createTitle {
+    font-family: peaks;
+    color: orange;
+}
+
+.new {
+    color: yellow;
+}
+
+option {
+    background: rgba(255, 155, 217, 0.418);
+    color: purple;
+    font-weight: bold;
+}
+
+.createItemButton {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+	background-color: rgba(153, 0, 255, 0.171);
+
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.loginInput {
+    width: 50%;
+}
+
+footer {
+    font-family: 'Do Hyeon', sans-serif;    
+}
+
+.createError {
+    font-family: 'Do Hyeon', sans-serif;    
+    color: white;
+}
+
+/* file browser */
+input[type="file"]{
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 4px;
+    border: solid 1px rgb(155, 101, 0);
+    display: block;
+    outline: 0;
+    padding: .5em 1em;
+    text-decoration: none;
+    width: 50%;
+}
+
+textarea,select{
+    background: rgba(255, 255, 255, 0.075) !important;
+}
+textarea:active,textarea:focus{
+    background: transparent !important;
+}
+select:active,select:focus{
+    background: transparent !important;
+}

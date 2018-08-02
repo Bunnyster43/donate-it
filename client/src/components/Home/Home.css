@@ -1,0 +1,140 @@
+@font-face {
+    font-family: peaks;
+    src: url(peaks.ttf);
+}
+
+.searchButton {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+	background-color: rgba(153, 0, 255, 0.171);
+    /* background-color: Transparent; */
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.form-control {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;    
+    background-color: Transparent;
+    border-color: rgb(155, 101, 0);
+    height: 44px; /* added by farha */
+}
+
+.form-control:focus {
+    background-color: Transparent;
+    color: white;
+    border-color: yellow;
+	box-shadow: 0 0 0 1px orange;
+}
+
+option {
+    background: rgba(255, 155, 217, 0.418);
+    color: purple;
+    font-weight: bold;
+}
+
+.logoD {
+    width: 40%;
+    margin-top: -4%;
+}
+
+.logoName {
+    font-family: peaks;
+    font-size: 20px;
+    margin-top: -8%;
+    color: orange;
+    margin-bottom: 2%;
+}
+
+.donate {
+    color: yellow;
+}
+
+.copy {
+    color: yellow;
+}
+
+.recentFont {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.recentPost {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+/* temporary css */
+.recentPost img{
+    width:350px !important;
+    max-width: 100%;
+    height:280px; 
+}
+
+footer {
+    font-family: 'Do Hyeon', sans-serif;    
+}
+
+.image{
+    position: relative;
+    padding: 0px;
+    height:250px;
+    width: 100%;
+}
+
+
+
+.item-name{
+    text-align: center;
+    font-size:18px;
+    color:snow;
+    font-weight: bolder !important;
+} 
+
+.address{
+    text-align: center;
+    font-size:18px;
+    color:salmon;
+    font-weight: bolder !important;
+} 
+
+.img-div{
+    border:1px solid salmon;
+}
+
+.item-div{
+    margin-bottom: 20px;
+}
+
+.img-div:hover{
+    border:1px solid salmon;
+    box-shadow: 4px 4px 2px lightcoral;
+    text-decoration: none;
+}
+
+.interested{
+    background:white;
+    display: inline;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(255, 63, 85);
+    font-weight: 900;
+    border-radius: 10px;
+    border:1px solid slategray;
+}
+
+.interested:hover{
+    cursor: pointer;
+    background: lavender;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+.sent{
+    color: forestgreen;
+}

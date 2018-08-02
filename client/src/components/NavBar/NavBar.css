@@ -1,0 +1,21 @@
+@font-face {
+    font-family: peaks;
+    src: url(peaks.ttf);
+}
+
+.mb-4 {
+    font-family: peaks;
+    color: orange;
+    text-align: right;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linkColor:hover { 
+    color: yellow;
+}
+
+.linkActive{
+    color: rgb(221, 28, 221);
+}
